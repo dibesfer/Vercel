@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+
+footer , header {
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: unset;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px){
+    main {
+        margin: 10px;
+    }
+}
